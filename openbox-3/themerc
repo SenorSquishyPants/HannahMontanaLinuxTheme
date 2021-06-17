@@ -1,0 +1,154 @@
+# Name: Hannah Montana Openbox theme
+# Author: SenorSquishyPants
+# License: MIT
+# @TODO: finish replacing the colors here
+
+
+# Menu
+menu.border.color: #000000
+
+menu.title.bg: Solid Flat
+menu.title.bg.color: #c13ae0
+menu.title.bg.shadow: 0
+menu.title.text.color: #000000
+menu.title.text.justify: Center
+
+menu.items.bg: Solid Flat
+menu.items.bg.color: #c13ae0
+menu.items.text.color: #000000
+menu.items.disabled.text.color: #300e38
+
+menu.items.active.bg: Solid Flat
+menu.items.active.bg.color: #99ab37
+menu.items.active.text.color: #000000
+
+menu.separator.color: #300e38
+menu.separator.width: 1
+menu.separator.padding.width: 2
+menu.separator.padding.height: 4
+
+# Window focused
+window.active.title.separator.color: #c13ae0
+
+# Active window
+window.active.border.color: #4195b2
+
+
+window.active.title.bg: flat solid
+window.active.title.bg.color: #c13ae0
+window.active.title.separator.color: #c13ae0
+window.active.text.justify: center
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #000000
+
+window.active.handle.bg: flat solid
+window.active.handle.bg.color: #c13ae0
+
+window.active.grip.bg: flat solid
+window.active.grip.bg.color: #c13ae0
+
+window.active.button.unpressed.bg: flat solid
+window.active.button.unpressed.bg.color: #c13ae0
+window.active.button.unpressed.image.color: #000000
+
+window.active.button.pressed.bg: flat solid
+window.active.button.pressed.bg.color: #99ab37
+window.active.button.pressed.image.color: #ceeff4
+
+window.active.button.disabled.bg: flat solid
+window.active.button.disabled.bg.color: #c13ae0
+window.active.button.disabled.image.color: #300e38
+
+window.active.button.hover.bg: flat solid
+window.active.button.hover.bg.color: #c13ae0
+window.active.button.hover.image.color: #99ab37
+
+#window.active.button.toggled.bg: #99ab37
+#window.active.button.toggled.image.color: #ceeff4
+
+# Inactive window
+window.inactive.border.color: #8fdff4
+
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #c13ae0
+window.inactive.title.separator.color: #c13ae0
+window.inactive.text.justify: center
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #300e38
+
+window.inactive.handle.bg: flat solid
+window.inactive.handle.bg.color: #c13ae0
+
+window.inactive.grip.bg: flat solid
+window.inactive.grip.bg.color: #c13ae0
+
+window.inactive.button.unpressed.bg: flat solid
+window.inactive.button.unpressed.bg.color: #c13ae0
+window.inactive.button.unpressed.image.color: #300e38
+
+window.inactive.button.pressed.bg: flat solid
+window.inactive.button.pressed.bg.color: #99ab37
+window.inactive.button.pressed.image.color: #ceeff4
+
+window.inactive.button.disabled.bg: flat solid
+window.inactive.button.disabled.bg.color: #300e38
+window.inactive.button.disabled.image.color: #c13ae0
+
+window.inactive.button.hover.bg: flat solid
+window.inactive.button.hover.bg.color: #c13ae0
+window.inactive.button.hover.image.color: #99ab37
+
+
+# OSD
+osd.border.width: 1
+osd.border.color: #99ab37
+
+osd.bg: flat solid
+osd.bg.color: #c13ae0
+osd.label.bg: flat solid
+osd.label.bg.color: #c13ae0
+osd.label.text.color: #000000
+
+# OSD
+osd.bg: Solid Flat
+osd.bg.color: #c13ae0
+osd.bg.shadow: 0
+
+osd.border.width: 2
+osd.hilight.bg: Solid Flat
+osd.hilight.bg.color: #99ab37
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #c637fe
+
+osd.button.unpressed.bg: flat border
+osd.button.unpressed.bg.color: #ac2ac9
+#osd.button.unpressed.*.border.color: #000000
+
+osd.button.pressed.bg: flat border
+osd.button.pressed.bg.color: #99ab37
+#osd.button.pressed.*.border.color: #ceeff4
+
+osd.button.focused.bg: flat solid border
+osd.button.focused.bg.color: #000000
+#osd.button.focused.*.border.color: #c637fe
+
+osd.button.focused.box.color: #99ab37
+
+
+# Fonts
+window.active.label.text.font:shadow=n
+window.inactive.label.text.font:shadow=n
+menu.items.font:shadow=n
+menu.title.text.font:shadow=n
+
+
+# Everything else
+border.width: 3
+padding.width: 8
+padding.height: 3
+window.handle.width: 0
+window.client.padding.width: 0
+window.label.text.justify: center
+#menu.overlap: 0
